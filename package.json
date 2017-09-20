@@ -1,0 +1,55 @@
+{
+	"name": "strip-ansi-stream",
+	"version": "0.0.0",
+	"description": "Strip ANSI escape codes",
+	"license": "MIT",
+	"repository": "chalk/strip-ansi-stream",
+	"author": {
+		"name": "Kevin Mårtensson",
+		"email": "kevinmartensson@gmail.com",
+		"url": "github.com/kevva"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"strip",
+		"trim",
+		"remove",
+		"ansi",
+		"styles",
+		"color",
+		"colour",
+		"colors",
+		"terminal",
+		"console",
+		"string",
+		"tty",
+		"escape",
+		"formatting",
+		"rgb",
+		"256",
+		"shell",
+		"xterm",
+		"log",
+		"logging",
+		"command-line",
+		"text",
+		"stream"
+	  ],
+	"dependencies": {
+		"ansi-regex": "^3.0.0",
+		"replacestream": "^4.0.3"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"get-stream": "^3.0.0",
+		"xo": "*"
+	}
+}
