@@ -42,7 +42,7 @@
 		"command-line",
 		"text",
 		"stream"
-	  ],
+	],
 	"dependencies": {
 		"ansi-regex": "^3.0.0",
 		"replacestream": "^4.0.3"
