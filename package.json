@@ -4,11 +4,7 @@
 	"description": "Strip ANSI escape codes",
 	"license": "MIT",
 	"repository": "chalk/strip-ansi-stream",
-	"author": {
-		"name": "Kevin Mårtensson",
-		"email": "kevinmartensson@gmail.com",
-		"url": "github.com/kevva"
-	},
+	"funding": "https://github.com/chalk/strip-ansi-stream?sponsor=1",
 	"engines": {
 		"node": ">=4"
 	},
@@ -48,8 +44,8 @@
 		"replacestream": "^4.0.3"
 	},
 	"devDependencies": {
-		"ava": "*",
+		"ava": "^1",
 		"get-stream": "^3.0.0",
-		"xo": "*"
+		"xo": "^0.20.0"
 	}
 }

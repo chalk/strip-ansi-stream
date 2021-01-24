@@ -1,7 +1,6 @@
-# strip-ansi-stream [![Build Status](https://travis-ci.org/chalk/strip-ansi-stream.svg?branch=master)](https://travis-ci.org/chalk/strip-ansi-stream)
+# strip-ansi-stream
 
 > Strip [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)
-
 
 ## Install
 
@@ -9,11 +8,10 @@
 $ npm install strip-ansi-stream
 ```
 
-
 ## Usage
 
 ```js
-const stripAnsiStream = require('strip-ansi-stream');
+import stripAnsiStream from 'strip-ansi-stream';
 
 const stream = stripAnsiStream();
 
@@ -27,13 +25,11 @@ stream.write('\u001B[4mUnicorn\u001B[0m');
 stream.end('\u001B[0;33;49;3;9;4mbar\u001B[0m');
 ```
 
-
 ## API
 
 ### stripAnsiStream()
 
-Returns a [Transform stream](https://nodejs.org/api/stream.html#stream_class_stream_transform) that strips ANSI escape codes.
-
+Returns a [`Transform` stream](https://nodejs.org/api/stream.html#stream_class_stream_transform) that strips ANSI escape codes.
 
 ## Related
 
@@ -41,8 +37,3 @@ Returns a [Transform stream](https://nodejs.org/api/stream.html#stream_class_str
 - [has-ansi](https://github.com/chalk/has-ansi) - Check if a string has ANSI escape codes
 - [ansi-regex](https://github.com/chalk/ansi-regex) - Regular expression for matching ANSI escape codes
 - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right
-
-
-## License
-
-MIT
