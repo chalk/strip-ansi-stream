@@ -1,6 +1,6 @@
 import test from 'ava';
 import getStream from 'get-stream';
-import stripAnsiStream from '.';
+import stripAnsiStream from './index.js';
 
 test('strip color from string', async t => {
 	const stream = stripAnsiStream();

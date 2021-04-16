@@ -1,5 +1,6 @@
-'use strict';
-const ansiRegex = require('ansi-regex');
-const replaceStream = require('replacestream');
+import ansiRegex from 'ansi-regex';
+import replaceStream from 'replacestream';
 
-module.exports = () => replaceStream(ansiRegex(), '');
+export default function stripAnsiStream() {
+	return replaceStream(ansiRegex(), '');
+}
